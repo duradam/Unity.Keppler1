@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 0097e8d9d7aae9549a3dce449b0fb75a
+  productGUID: 380185dcf9578d34fa9eef470af498d2
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Keppler1
+  productName: keppler1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -663,8 +663,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: e61bf625-c334-4691-b210-a0b295d331ba
-  projectName: Keppler1
+  cloudProjectId: ec54ee28-6b4b-4690-8005-90168c17cd8e
+  projectName: keppler1
   organizationId: adam_du
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
