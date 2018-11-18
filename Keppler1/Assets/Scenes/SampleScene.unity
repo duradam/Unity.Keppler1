@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.044414505, g: 0.0418735, b: 0.045859963, a: 1}
+  m_IndirectSpecularColor: {r: 0.043858968, g: 0.041274928, b: 0.04513926, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -249,6 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170076735}
   - component: {fileID: 170076734}
+  - component: {fileID: 170076736}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -305,6 +306,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &170076736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170076733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00cef9ccd530ca4e8b353f2c6f15883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 0.5
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +404,7 @@ GameObject:
   - component: {fileID: 1130535600}
   - component: {fileID: 1130535599}
   - component: {fileID: 1130535598}
-  - component: {fileID: 1130535604}
+  - component: {fileID: 1130535605}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -488,12 +501,12 @@ Transform:
   m_GameObject: {fileID: 1130535597}
   m_LocalRotation: {x: 0.0034034187, y: 0.00087268976, z: -0.0000029701469, w: 0.99999386}
   m_LocalPosition: {x: -13.59, y: -1.95, z: -2.04}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0.39, y: 0.1, z: 0}
---- !u!114 &1130535604
+--- !u!114 &1130535605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -501,6 +514,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1130535597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43dd20db37876084c9d069a079feea20, type: 3}
+  m_Script: {fileID: 11500000, guid: a670f5535e169e0428c0af0acceb9139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
